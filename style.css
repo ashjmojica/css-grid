@@ -30,4 +30,29 @@ h1 {
     "header header header"
     "sidebar body body"
     "sidebar footer footer";
+  gap: 10px;
+}
+
+.header {
+  grid-area: header;
+  border: 2px solid black;
+  height: 10px;
+}
+
+.footer {
+  grid-area: header;
+  border: 2px solid cyan;
+  height: 10px;
+}
+
+.sidebar {
+  grid-area: header;
+  border: 2px solid red;
+  height: 100%;
+}
+
+.body {
+  grid-area: header;
+  border: 2px solid yellow;
+  height: 20px;
 }

@@ -24,13 +24,14 @@ h1 {
 }
 
 .grid-container-2 {
+  padding: 20px;
   border: 2px solid blue;
   display: grid;
   grid-template-areas:
     "header header header"
     "sidebar body body"
     "sidebar footer footer";
-  gap: 10px;
+  gap: 2px;
 }
 
 .header {
@@ -40,19 +41,19 @@ h1 {
 }
 
 .footer {
-  grid-area: header;
+  grid-area: footer;
   border: 2px solid cyan;
   height: 10px;
 }
 
 .sidebar {
-  grid-area: header;
+  grid-area: sidebar;
   border: 2px solid red;
   height: 100%;
 }
 
 .body {
-  grid-area: header;
+  grid-area: body;
   border: 2px solid yellow;
   height: 20px;
 }

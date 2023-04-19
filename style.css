@@ -10,5 +10,7 @@ h1 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns:
+    100px 100px
+    100px;
 }

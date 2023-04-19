@@ -4,11 +4,11 @@ h1 {
 
 .grid-box {
   height: 100px;
-  width: 100px;
+  width: 100%;
   border: 2px solid pink;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: 100px 1fr 100px;
 }

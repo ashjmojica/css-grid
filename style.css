@@ -8,9 +8,26 @@ h1 {
   border: 2px solid pink;
 }
 
+.imposter {
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 100px 1fr 100px;
   grid-template-rows: auto;
   gap: 10px;
+}
+
+.grid-container-2 {
+  border: 2px solid blue;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar body body"
+    "sidebar footer footer";
 }
